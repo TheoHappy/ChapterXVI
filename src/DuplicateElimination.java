@@ -38,7 +38,7 @@ public class DuplicateElimination {
         Set<String> set = new HashSet<>(values);
         boolean result = set.add(searchValue);
         if (result == true) {
-            System.out.println("This first name is'nt present in set");
+            System.out.println("This first name isn't present in set");
         }else
             System.out.println("This first name is present in set");
 
